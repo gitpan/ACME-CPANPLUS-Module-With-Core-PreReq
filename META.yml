@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.91'
+generated_by: 'Module::Install version 0.99'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,12 +21,13 @@ no_index:
 provides:
   ACME::CPANPLUS::Module::With::Core::PreReq:
     file: lib/ACME/CPANPLUS/Module/With/Core/PreReq.pm
-    version: 0.02
+    version: 0.04
 requires:
+  Config: 0
   Errno: 0
   perl: 5.6.0
 resources:
   homepage: http://github.com/bingos/acme-cpanplus-module-with-core-prereq/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/acme-cpanplus-module-with-core-prereq.git
-version: 0.02
+version: 0.04
